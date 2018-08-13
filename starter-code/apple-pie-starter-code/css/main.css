@@ -1,16 +1,16 @@
 header{
-    border-style: solid;
+
 }
+
 body {
-    border-style: solid;
-    margin: 200px;
+
 }
+
 .presentation1 {
-    border-style: solid;
     position: relative;
 }
+
 .h1-centered{
-    border-style: solid;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -21,25 +21,59 @@ body {
 }
 
 .presentation2 {
-    border-style: solid;
     padding: 10%;
     text-align: justify;
-    padding: -50xp;
-    font-size: 120%;
+    padding: 0 20%;
+    font-size: 140%;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 .image1{
-    border-style: solid;
     max-width: 100%; overflow: hidden;
     text-indent: -100px -300px -100px -100px;
     }
+
 .image-recipe{
-    border-style: solid;
-    padding: 0px 150px;
-    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
+
+.image-recipe2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.ingredients{
+    padding: 0 20%;
+    /* line-height: 10px; */
+}
+
+.ingredients ul {
+    text-align: justify;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ingredients ul li {
+    padding: 5px 0;
+}
+
+.directions-instru {
+    text-align: justify;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.directions-instru li {
+    padding: 10px 0;
+}
+
 hr {
-    width = 75%;
+    width : 75%;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
